@@ -4,7 +4,8 @@ email: "v.vienna@vinrobotics.net"
 description: >
   Deputy of CEO/CTO, and affiliated faculty at VinUni.  
 
-baseurl: ""   # or "" if deploying as username.github.io
+url: "https://vienngo.github.io"
+baseurl: ""
 
 plugins:
   - jekyll-email-protect
