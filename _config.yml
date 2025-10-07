@@ -1,0 +1,27 @@
+title: "Vien Anh Ngo"
+name: "Vien Anh Ngo"
+email: "v.vienna@vinrobotics.net"
+description: >
+  Deputy of CEO/CTO, and affiliated faculty at VinUni.  
+
+baseurl: ""   # or "" if deploying as username.github.io
+
+plugins:
+  - jekyll-email-protect
+  - jekyll-scholar   # add this for auto-publications
+
+collections:
+  - publications
+
+# Social links
+scholar_url: "https://scholar.google.com/citations?user=xk1gsM8AAAAJ&hl=en"
+orcid_url: "https://orcid.org/0000-0001-9646-267X"
+github_url: "https://github.com/vienngo"
+linkedin_url: "https://www.linkedin.com/in/vien-ngo-383ba3a6/"
+
+# Jekyll Scholar config
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: vien_anh_ngo_publications.bib
